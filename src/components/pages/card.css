@@ -1,0 +1,23 @@
+.full-card{
+    width: 240px;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 5px;
+    height: 350px;
+    margin: 6px;
+}
+.card-button{
+    width: 90%;
+    background-color: rgb(49, 47, 47);
+    padding: 3px;
+    color: white;
+    border: 1px solid rgb(221, 221, 221);
+}
+.card-button:hover{
+    background-color: rgba(49, 47, 47, 0.815);
+}
+.card-button:focus{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+

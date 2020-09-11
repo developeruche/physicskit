@@ -1,0 +1,46 @@
+.authorRemark{
+    width: 100%;
+    display: flex;
+}
+.authorImageConR{
+    width: 40%;
+}
+.authorImageR{
+    height: 50vh;
+}
+.authorImgR{
+    height: 85%;
+    width: auto;
+}
+.resulttable{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(240, 233, 233);
+    margin: 10px 0px 10px 0px;
+    margin-left: 25%;
+}
+td, tr{
+    border: 1px solid rgb(240, 233, 233); 
+}
+@media screen and (max-width: 600px){
+    .authorRemark{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 412px){
+    .authorRemark{
+        display: flex;
+        flex-direction: column;
+    }
+    .authour-s-text{
+        font-size: 20px;
+    }
+    .authour-s-text h1{
+        font-size: 23px;
+    }
+    .fullContainer{
+        margin: 0;
+    }
+}

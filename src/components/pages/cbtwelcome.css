@@ -1,0 +1,123 @@
+.fa-telegram{
+    color: #4267B2;
+    margin: 3px;
+    font-size: 40px;
+}
+.fa-telegram:hover{
+    color: #486eb9cb;
+}
+.fa-telegram:focus{
+    color: #1d3c7a;
+}
+.replyContainer{
+    display: flex;
+    position: relative;
+    bottom: 0%;
+    margin: 3px;
+    width: 100%;
+    margin-top: 20%;
+
+}
+.sendplane{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+.fullContainer{
+    width: 66%;
+    height: 100%;
+    margin-left: 17%;
+    background-color: #f2eecb28;
+}
+.text-input{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px #ddd solid;
+    font-size: 18px;
+    height: 10%;
+    resize: none;
+    padding: 0;
+    
+}
+.text-input:focus{
+    outline: none;
+    padding: 5px;
+    
+}
+.authorImageCon{
+    width: 25%;
+    height: auto;
+}
+.authorImage{
+    height: 50vh;
+}
+.authorImg{
+    width: auto;
+    height: 85%;
+}
+.authourWelcome{
+    display: flex;
+    padding: 10px;
+}
+.authour-s-text{
+    font-size: 25px;
+}
+.p5{
+    padding: 10px;
+}
+.enableai{
+    margin: 5px;
+    border: 0;
+    padding: 3px;
+    color: white;
+    background-color: #4267B2;
+    font-size: 22px;
+    border-radius: 3px;
+}
+.enableai:focus{
+    outline: none;
+}
+.enableai:hover{
+    background-color: #4267b2c2;
+}
+.userChat{
+    background-color: #00C6FF;
+    color: black;
+    width: 60%;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 4px;
+    margin-left: 20%;
+}
+.computerChat{
+    background-color: #4267B2;
+    color: white;
+    width: 60%;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 4px;
+}
+@media screen and (max-width: 600px){
+    .fullContainer{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .authourWelcome{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 412px){
+    .authourWelcome{
+        display: flex;
+        flex-direction: column;
+    }
+    .authour-s-text{
+        font-size: 20px;
+    }
+    .authour-s-text h1{
+        font-size: 23px;
+    }
+    .fullContainer{
+        margin: 0;
+    }
+}

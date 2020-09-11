@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+.ull{
+    height: 100%;
+    margin-top: 15%;
+}
+.navigator{
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    top: 10%;
+    background-color: rgb(78, 75, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in;
+}
+.full-container{
+    width: 100%;
+}
+.controller{
+    font-size: 50px;
+    margin: 10px 0px 10px 30px;
+    
+}
+
+.animateController{
+        transform: rotate(-180deg);
+        transform: translateX(640%);
+        transition: transform 0.6s ease-in;
+
+
+}
+.pagenav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+.chapterbtn{
+    color: rgb(238, 229, 229);
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(78, 75, 75);
+    padding: 3px;
+    margin-top: 5px;
+    
+}
+.chapterbtn:hover{
+    border: 1px solid whitesmoke;
+}
+.quiz-body{
+    width: 100vw;
+}
+.struture{
+    margin-bottom: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.quiz{
+    width: 100vh;
+}
+.adCard{
+    width: 80%;
+    margin-left: 10%;
+    height: 380px;
+    display: flex;
+    overflow-x: scroll;
+}
+.adCard::-webkit-scrollbar{
+    background-color: rgba(51, 23, 23, 0.466);
+    border-radius: 10px;
+    width: 10px;
+}
+.adCard::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 10px;
+    background-color: rgba(51, 23, 23, 0.671);    
+}
+@media screen and (max-width: 800px){
+    .controller{
+        font-size: 40px;
+        margin:5px 15px 5px 5px;
+        
+    }
+    .navigator{
+        width: 30%;
+        height: 80vh;
+        top: 5%;
+    }
+    .animateController{
+        transform: translateX(700%);
+    }
+
+}
+@media screen and (max-width: 600px){
+    .navigator{
+        width: 25%;
+    }
+    .animateController{
+        transform: translateX(450%);
+}
+}
+@media screen and (max-width: 360px){
+    .controller{
+        font-size: 30px;
+        margin:5px 15px 5px 0px;
+        
+    }
+    .navigator{
+        width: 45%;
+    }
+    .animateController{
+        transform: translateX(650%);
+}
+}
+

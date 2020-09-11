@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+  }
+  .textshadow1{
+    text-shadow: black 5px 5px 12px;
+    
+  }
+  .textshadow2{
+    text-shadow: black 3px 3px 9px;
+  }
+  .textshadow3{
+    text-shadow: black 3px 3px 6px;
+  }
+  .something{
+    height: 20%!important;
+    margin: 0px, 0px, 16px!important;
+    padding: 5px, 5px!important;
+    background-color: #E9EFEF;
+  }
+  .social{
+    position: absolute;
+    position: fixed;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    padding: 5px;
+  }
+  .social:hover{
+    color: rgba(0, 0, 255, 0.144);
+  }
+
+/*Media Querys*/
+@media screen and (max-width: 800px){
+  .carousel-caption{
+    top: 40%;
+    transform: translateY(-40%);
+  }
+
+  .font1{
+    font-size: 85px!important;
+  }
+  
+  .font4{
+    font-size: 50px!important;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .carousel-caption{
+    position: absolute;
+    top: 25%;
+    transform: translateY(-40%);
+  }
+  .font1{
+    font-size: 70px!important;
+  }
+  .font2{
+    font-size: 30px!important;
+  }
+
+  .font4{
+    font-size: 50px!important;
+  }
+}
+@media screen and (max-width: 420px){
+  .carousel-caption{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-40%);
+  }
+  .font1{
+    font-size: 50px!important;
+    margin: 0px!important;
+  }
+  .font2{
+    font-size: 15px!important;
+  }
+  .font3{
+    font-size: 15px!important;
+  }
+  .font4{
+    font-size: 30px!important;
+  }
+  .btn-lg{
+    font-size: 15px!important;
+    padding: 3px;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .para{
+    font-size: 15px!important;
+  }
+}
