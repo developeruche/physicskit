@@ -20,9 +20,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "postinstall": "npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+  },
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.8"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "An application for studying physics and taking CBT",
+  "main": "index.js",
+  "author": "Nwele Uchenna <nweleuchenna2004@gmail.com>",
+  "license": "MIT"
 }
